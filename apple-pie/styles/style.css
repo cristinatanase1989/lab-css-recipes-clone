@@ -1,0 +1,55 @@
+header{
+    background-image: url("../images/apple-pie.jpg") ;
+    background-size: cover;
+    background-position: center;
+
+
+    display: flex; /*el diplay que sea flexible pa que haga yo lo que quiero */
+    align-items: center;/*  aliñamelo/ bajame en el centro*/
+    justify-content: center; /* aliñamelo en el centro*/
+    
+
+    height: 600px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+   
+}
+
+
+    .primerParafo {
+    
+       display: flex;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 37px;
+        padding: 50px;
+        padding-top:40px ;
+       margin: 10px;
+       height: 40px;
+       font-size: 30px;
+
+    } 
+    
+    div.img{
+        border-image: 20px;
+        width: 20px;
+        
+    }
+
+    section.first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 33px;
+    }
+
+    section.ingredients{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        font-size: 30px;
+        
+    }
